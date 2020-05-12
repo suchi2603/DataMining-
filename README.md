@@ -2,7 +2,7 @@
 The project is on predicting the ratings of BoardGameGeek Reviews
 The dataset is available at: https://www.kaggle.com/jvanelteren/boardgamegeek-reviews.
 
-The dataset contains three separate CSV files.
+The dataset contains three separate CSV files:
 
 * The first CSV file named 20119-05-02 has all the ranking data.
 
@@ -10,9 +10,13 @@ The dataset contains three separate CSV files.
 
 * games_details_info has the specific details about the data. 
 
-The goal of the project is to predict the rating of the review, and the main thing that should be highlighted is the kind of improvement done over the given available codes and tutorials online.
+-> The goal of the project is to predict the rating of the review, and the main thing that should be highlighted is the kind of improvement done over the given available codes and tutorials online.
 
-As per my progress, I a beginner in Data Analysis and using Python programming so clearly I preferred first to explore the complete dataset using various libraries and inbuilt functions provided by python packages.
+As per my progress, 
+
+I a beginner in Data Analysis and using Python programming so I preferred first to explore the complete dataset clearly using various libraries and inbuilt functions provided by python packages.
+
+# Explaining the process
 
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
 
