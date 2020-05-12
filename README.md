@@ -18,7 +18,17 @@ I a beginner in Data Analysis and using Python programming so I preferred first 
 
 # Explaining the process
 
-The three datasets are imported using the ## python  read_csv, an important pandas function to read csv files and do operations on it.
+a) The three datasets are imported using the "python read_csv", an important pandas function to read csv files and do operations on it.
+
+  * The head() function is used to get the first n rows of the required dataframe which was imported using pandas.
+
+  * The data types that are present in the data can be known using the ".dtype".
+  
+  * The describe() funtion allows us to know about the Mean, Standard Deviation, Count, Min, Max etc.
+  
+  * ".isna().sum()" is very useful to know if there are any NULL or NaN values present in the datasets so that it would help in further process.
+
+   
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
 
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
