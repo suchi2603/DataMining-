@@ -4,11 +4,11 @@ The dataset is available at: https://www.kaggle.com/jvanelteren/boardgamegeek-re
 
 The dataset contains three separate CSV files.
 
-**The first CSV file named 20119-05-02 has all the ranking data.
+* The first CSV file named 20119-05-02 has all the ranking data.
 
-bgg_13m_reviews CSV file has all reviews stored in it.
+* bgg_13m_reviews CSV file has all reviews stored in it.
 
-games_details_info has the specific details about the data. 
+* games_details_info has the specific details about the data. 
 
 The goal of the project is to predict the rating of the review, and the main thing that should be highlighted is the kind of improvement done over the given available codes and tutorials online.
 
