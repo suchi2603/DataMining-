@@ -18,6 +18,9 @@ I a beginner in Data Analysis and using Python programming so I preferred first 
 
 # Explaining the process
 
+The three datasets are imported using the python  read_csv, an important pandas function to read csv files and do operations on it.
+In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
+
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
 
 The majority of the 15 categories only have one board game, except abstract, children, customizable, family, party, strategy, thematic, and war.
