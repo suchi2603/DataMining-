@@ -10,7 +10,16 @@ The dataset contains three separate CSV files:
 
 * games_details_info has the specific details about the data. 
 
--> The goal of the project is to predict the rating of the review, and the main thing that should be highlighted is the kind of improvement done over the given available codes and tutorials online.
+In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
+
+In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
+
+The majority of the 15 categories only have one board game, except abstract, children, customizable, family, party, strategy, thematic, and war.
+
+All numerical variables excluding categories have no null values.
+
+
+-> *The goal of the project is to predict the rating of the review, and the main thing that should be highlighted is the kind of improvement done over the given available codes and tutorials online.*
 
 As per my progress, 
 
@@ -27,10 +36,12 @@ I a beginner in Data Analysis and using Python programming so I preferred first 
   * The describe() funtion allows us to know about the Mean, Standard Deviation, Count, Min, Max etc.
   
   * ".isna().sum()" is very useful to know if there are any NULL or NaN values present in the datasets so that it would help in further process.
+  
+Therefore, I have performed analysis and could view the datatypes, shape of the data, the complete description like the Mean of the required columns.  
 
 ## Visualizing data
 
-Data visualization is very helpful tool in understanding the data better in lesser time.
+Data visualization is very helpful tool in understanding the data better in lesser time. Anyone from a any background can easily be able to undestand the concepts when it is explained through pictorail ways.
 
 visualization of data can be easy with python using:
 
@@ -43,6 +54,8 @@ visualization of data can be easy with python using:
   * *ggplot*
   
   * *Plotly etc*
+
+A heatmap which was looking quite attractive which can be a best diagramatic description of the data present in games_details_info.csv file.  
   
 I used Histograms to show the visual relationship between various columns present in the data.
 
@@ -58,16 +71,13 @@ Using "seaborn" we can create a custom diverging colour map. Here I used 'GnBu' 
 Once we look at the data sets, there are columns that are common in the datasets and so we can mannage merging the repeating columns to improve execution time.
 
 The code for merging the selected coumns of a given dataset is executed. For example the column like "Average" is available in both the datasets but one has a precision of one decimal point and the other has a precision of three. so if we merge them it is easier to understand the values and consider whichever is needed.
-In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
 
-In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
+## Descriptive analysis of BoardGames
 
-The majority of the 15 categories only have one board game, except abstract, children, customizable, family, party, strategy, thematic, and war.
+For any given dataset, the description is really very important to understand what exactly the data is holding. For performing any other futher steps the analysis of the dataset is the next important step to be done.
 
-All numerical variables excluding categories have no null values.
+ maximum number of board games published during a given duration was also helpful for us to know aboutthe year in which there were a lot of games published.
 
-I have performed analysis and could view the datatypes, shape of the data, the complete description like the Mean of the required columns.
+## Concludings
+From the analysis of the data is concluded that, maximum number of board games published was during 2016. This is depicted using the plot of curve. 
 
-A heatmap which was looking quite attractive which can be a best diagramatic description of the data present in games_details_info.csv file.
-
-The maximum number of board games published during a given duration was also helpful for us to know aboutthe year in which there were a lot of games published.
