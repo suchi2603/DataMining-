@@ -18,7 +18,7 @@ I a beginner in Data Analysis and using Python programming so I preferred first 
 
 # Explaining the process
 
-a) The three datasets are imported using the "python read_csv", an important pandas function to read csv files and do operations on it.
+ The three datasets are imported using the "python read_csv", an important pandas function to read csv files and do operations on it.
 
   * The head() function is used to get the first n rows of the required dataframe which was imported using pandas.
 
@@ -28,7 +28,29 @@ a) The three datasets are imported using the "python read_csv", an important pan
   
   * ".isna().sum()" is very useful to know if there are any NULL or NaN values present in the datasets so that it would help in further process.
 
-   
+## Visualizing data
+
+Data visualization is very helpful tool in understanding the data better in lesser time.
+
+visualization of data can be easy with python using:
+
+  * *Pandas* 
+  
+  * *Matplotlib*
+  
+  * *Seaborn*
+  
+  * *ggplot*
+  
+  * *Plotly etc*
+  
+I used Histograms to show the visual relationship between various columns present in the data.
+
+ a) Firstly, the "Year" column of the first dataset is plotted.
+
+ b) Later the "average", "Bayes average" and "User ratings" columns were also plotted.
+
+
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
 
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
