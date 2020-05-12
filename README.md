@@ -50,10 +50,14 @@ I used Histograms to show the visual relationship between various columns presen
 
  b) Later the "average", "Bayes average" and "User ratings" columns were also plotted.
 
+Under the data visualization we have "seaborn" in python for a great visualization of data.
+
+Using "seaborn" we can create a custom diverging colour map. Here I used 'GnBu' colour but various other colours like 'Cool', 'cool_r', 'copper', 'GuBn' etc can be used.
+
+## Merging the columns
 Once we look at the data sets, there are columns that are common in the datasets and so we can mannage merging the repeating columns to improve execution time.
 
 The code for merging the selected coumns of a given dataset is executed. For example the column like "Average" is available in both the datasets but one has a precision of one decimal point and the other has a precision of three. so if we merge them it is easier to understand the values and consider whichever is needed.
-
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
 
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
