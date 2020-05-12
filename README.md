@@ -1,4 +1,4 @@
-# DataMining
+# DataMining Project
 The project is on predicting the ratings of BoardGameGeek Reviews
 The dataset is available at: https://www.kaggle.com/jvanelteren/boardgamegeek-reviews.
 
@@ -50,6 +50,9 @@ I used Histograms to show the visual relationship between various columns presen
 
  b) Later the "average", "Bayes average" and "User ratings" columns were also plotted.
 
+Once we look at the data sets, there are columns that are common in the datasets and so we can mannage merging the repeating columns to improve execution time.
+
+The code for merging the selected coumns of a given dataset is executed. For example the column like "Average" is available in both the datasets but one has a precision of one decimal point and the other has a precision of three. so if we merge them it is easier to understand the values and consider whichever is needed.
 
 In the dataset, all categories have unique ranks for each game, except the leading board game ranking.
 
