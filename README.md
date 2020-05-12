@@ -4,7 +4,7 @@ The dataset is available at: https://www.kaggle.com/jvanelteren/boardgamegeek-re
 
 The dataset contains three separate CSV files:
 
-* The first CSV file named 20119-05-02 has all the ranking data.
+* The first CSV file named 20119-05-02 contain more precisis information for each game the game rank, year, number of users rated etc.
 
 * bgg_13m_reviews CSV file has all reviews stored in it.
 
@@ -74,10 +74,29 @@ The code for merging the selected coumns of a given dataset is executed. For exa
 
 ## Descriptive analysis of BoardGames
 
+1) The top 50 words that appear are plotted using the WordCloud and also listed
+
+Text Preprocessing is done before for:
+  * Sorting words in reverse order
+  * Deleting the less frequency words from the list
+  * and Finally generating the bag of Words
+For now, the Word cloud is plotted with 250 most frequent words with a black background. 
+
+2) Top 25 reviews of the data have been displayed using  Barplot.
+
+3)Correlation is one of the important aspects for representing the numerical values of the target rating.This has also been done.
+
+4)Plot for maximum number of games published durimg the years 2010 to 2018 was plotted.
+
+
 For any given dataset, the description is really very important to understand what exactly the data is holding. For performing any other futher steps the analysis of the dataset is the next important step to be done.
 
  maximum number of board games published during a given duration was also helpful for us to know aboutthe year in which there were a lot of games published.
 
 ## Concludings
-From the analysis of the data is concluded that, maximum number of board games published was during 2016. This is depicted using the plot of curve. 
+From the analysis of the data is concluded that, maximum number of board games published was during 2016. This is depicted using the plot of curve.
+
+There were also the list of all top frequency words like 'game', 'play, 'it', 'fun' etc.
+
+The most reviewed Board game was the 'carcassonne' and these can be seen from the Histogram plotted.
 
